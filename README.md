@@ -1,1 +1,1 @@
-# odin-project-landing-page
+[Odin Project: Landing page](https://www.theodinproject.com/lessons/foundations-landing-page)

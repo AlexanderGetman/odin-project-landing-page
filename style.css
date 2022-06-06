@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-size: 62.5%;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 header {
@@ -25,19 +26,24 @@ header {
 .header-logo {
     color: #f9faf8;
     font-size: 2.4rem;
+    text-decoration: none;
+    flex: 0 0 auto;
+    width: 50rem;
 }
 
 .header-title {
     color: #f9faf8;
     font-size: 4.8rem;
     font-weight: bolder;
+    width: 45rem;
 }
 
 .header-text {
     color: #e5e7eb;
     font-size: 1.8rem;    
     flex: 0 0 auto;
-    width: 50rem;
+    width: 40rem;
+    padding-bottom: 1rem;
 }
 
 .sign-up-button {
@@ -46,15 +52,17 @@ header {
     color: #f9faf8;
     font-size: 2rem;
     justify-content: center;
-    width: 10rem;
     border: 0.1px solid #3882f6;
     border-radius: 0.5rem;
+    padding: 0.3rem 2.5rem;
 }
 
 .header-links {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    flex-basis: 50%;
+    flex: 0 0 auto;
 }
 
 .header-links > a {
@@ -63,6 +71,6 @@ header {
     text-decoration: none;
 }
 
-.header-img {
-    
+.header-links > a:hover {
+    color: #617eb6;
 }
