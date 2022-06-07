@@ -74,3 +74,36 @@ header {
 .header-links > a:hover {
     color: #617eb6;
 }
+
+.information-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.information-block-header {
+    font-size: 3.6rem;
+    color: #1f2937;
+    margin: auto;
+    padding: 5rem 0;
+}
+
+.preview-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;
+}
+
+.preview-text {
+    font-size: 1.8rem;
+    width: 20rem;
+}
+
+.preview-image {
+    margin: auto;
+    height: 15rem;
+    width: 15rem;
+    border: 5px solid #3882f6;
+    border-radius: 1.5rem;
+}
