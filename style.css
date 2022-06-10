@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
     font-size: 62.5%;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;    
+}
+
+body {
+    max-width: 1980px;
+    margin: auto;
+    background-color: #ffffff;
 }
 
 header {
@@ -79,6 +87,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
+    padding-bottom: 15rem;
 }
 
 .information-block-header {
@@ -106,4 +115,60 @@ header {
     width: 15rem;
     border: 5px solid #3882f6;
     border-radius: 1.5rem;
+}
+
+.quote-block {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15rem 55rem;
+}
+
+.quote {
+    font-size: 3.6rem;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.signature {
+    font-size: 2.4rem;
+    color: #1f2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    margin: 10rem 40rem;
+    border-radius: 1rem;
+    padding: 5rem 15rem;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.call-to-action > .left > p {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.call-to-action > .left > p ~ p {
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+.call-to-action > .right {
+    align-self: baseline;
+}
+.call-to-action > .right > button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0.2rem solid #f9faf8;
+    font-size: 1.8rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding: 0.5rem 3.5rem;
 }
