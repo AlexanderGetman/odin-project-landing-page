@@ -139,31 +139,40 @@ header {
     align-self: flex-end;
 }
 
-.call-to-action {
-    background-color: #3882f6;
-    color: #f9faf8;
+.call-to-actions-parts {
     display: flex;
-    margin: 10rem 40rem;
-    border-radius: 1rem;
-    padding: 5rem 15rem;
-    justify-content: space-between;
-    align-content: center;
 }
 
-.call-to-action > .left > p {
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;    
+    max-width: calc(100% - 160rem);
+    margin: 10rem auto;
+    border-radius: 1rem;
+    padding: 5rem 15rem;
+    min-width: 800px;
+}
+
+.call-to-actions-parts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-actions-parts > .left > p {
     font-size: 2.4rem;
     font-weight: 700;
 }
 
-.call-to-action > .left > p ~ p {
+.call-to-actions-parts > .left > p ~ p {
     font-size: 1.8rem;
     font-weight: 100;
 }
 
-.call-to-action > .right {
-    align-self: baseline;
+.call-to-actions-parts > .right {
+    align-self: flex-end;
 }
-.call-to-action > .right > button {
+
+.call-to-actions-parts > .right > button {
     background-color: #3882f6;
     color: #f9faf8;
     border: 0.2rem solid #f9faf8;
@@ -171,4 +180,12 @@ header {
     font-weight: 500;
     border-radius: 1rem;
     padding: 0.5rem 3.5rem;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 3rem 0;
 }
