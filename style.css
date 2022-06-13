@@ -189,3 +189,69 @@ footer {
     text-align: center;
     padding: 3rem 0;
 }
+
+@media screen and (max-width: 1200px) {
+    * {
+        font-size: 2vw;
+    }
+
+    body {
+        max-width: 100%;
+    }
+
+    header {
+        padding: 2rem 5rem 10rem;
+    }
+
+    .header-upper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .header-main {
+        flex-direction: column;
+    }
+    .header-right {
+        margin: auto;
+    }
+
+    .header-right > img {
+        max-width: 100%;
+    }
+
+    .header-left > h1 {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .header-left > button {
+        margin: auto;
+    }
+
+    .preview-blocks {
+        flex-wrap: wrap;
+    }
+
+    .quote-block {
+        padding: 5rem 10rem;
+    }
+
+    .call-to-action {
+        max-width: 100%;
+        margin: 5rem auto;
+        min-width: 0;
+        padding: 2rem 1rem;
+    }
+
+    .call-to-actions-parts {
+        flex-direction: column;        
+    }
+
+    .call-to-actions-parts > .right {
+        align-self: center;
+    }
+
+    .quote {
+        font-size: 2rem;
+    }
+}
