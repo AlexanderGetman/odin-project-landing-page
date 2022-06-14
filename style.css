@@ -194,18 +194,31 @@ footer {
     * {
         font-size: 2vw;
     }
+    html, body {
+        overflow-x: hidden;
+    }
 
     body {
-        max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     header {
-        padding: 2rem 5rem 10rem;
+        padding: 2rem 5rem 10rem;        
     }
 
     .header-upper {
         flex-direction: column;
         gap: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .header-title {
+        width: 100%;
+    }
+
+    .header-links {
+        text-align: center;
     }
 
     .header-main {
@@ -226,6 +239,10 @@ footer {
 
     .header-left > button {
         margin: auto;
+    }
+
+    .information-block {
+        width: 100%;
     }
 
     .preview-blocks {
